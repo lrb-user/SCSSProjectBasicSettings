@@ -37,19 +37,28 @@
         align-items: flex-end;
       }
   }
+  
+  //텍스트 정렬
+  .text {
+      &-left {
+        text-align: left;
+      }
+      &-center {
+        text-align: center;
+      }
+      &-right {
+        text-align: right;
+      }
+  }
+  
+  .mxauto{
+    width:rem(1224);
+    margin-inline:auto;
+    @include mobile{
+      width:100%;
+    }
+  }
 }
 
-//텍스트 정렬
-.text {
-    &-left {
-      text-align: left;
-    }
-    &-center {
-      text-align: center;
-    }
-    &-right {
-      text-align: right;
-    }
-}
 
 
