@@ -12,7 +12,7 @@ npx degit lrb-user/SCSSProjectBasicSettings .
 3. 패키지를 설치 합니다.
 
 ```bash
-npx i
+npm i
 ```
 
 4. 서버실행 및 컴파일을 실행합니다.
